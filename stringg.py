@@ -7,5 +7,5 @@ for i in range(1, 11):
 prompt_length = int(input("Enter a length/number: "))
 
 for word in word_list:
-    if len(word) == prompt_length:
+    if len(word) >= prompt_length:
         print(word)
